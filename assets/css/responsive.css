@@ -1,0 +1,188 @@
+/*	Tablet Layout: 768px.
+	Gutters: 24px.
+	Outer margins: 28px.
+	Inherits styles from: Default Layout.
+	-----------------------------------------------------------------
+	cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+	
+	.banner-content h3{
+		
+		font-size:50px !important;
+	}
+	.feature-item-3{
+		
+		margin-top:0 !important;
+	}
+	.contact-info, .important-link,  .news-letter{
+		
+		margin-top:0 !important;
+	}
+}
+
+
+
+/*		Mobile Layout: 320px.
+	Gutters: 24px.
+	Outer margins: 34px.
+	Inherits styles from: Default Layout.
+	---------------------------------------------
+	cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 991px) {
+	
+	.banner-content{
+		
+		background:rgba(0,0,0, 0.7);
+		padding:20px;
+	}
+	.navbar{
+		
+		background-color:rgba(0,0,0, 0.8);
+		
+	}
+	.right-button{
+		opacity:0;
+		overflow:hidden;
+	}
+	.navbar-collapse {
+		padding-top:20px;
+		
+	}
+	.navbar ul li{
+		
+		border-bottom:1px solid #fff;
+		padding-bottom:10px;
+	}
+    .feature-item-3{
+		
+		margin-top:3rem;
+	}	
+	.premium, .ultimate{
+		
+		margin-top:30px;
+	}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+	Gutters: 24px.
+	Outer margins: 22px.
+	Inherits styles from: Default Layout, Mobile Layout.
+	------------------------------------------------------------
+	cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	.banner-content{
+		
+		background:rgba(0,0,0, 0.7);
+		padding:20px;
+	}
+	.banner h3{
+		
+		font-size:25px;
+	}
+	.navbar{
+		background-color:rgba(0,0,0, 0.8);
+		
+	}
+	.navbar-collapse {
+		padding-top:20px;
+		
+	}
+	.right-button{
+		opacity:0;
+		overflow:hidden;
+	}
+	.navbar ul li{
+		
+		border-bottom:1px solid #fff;
+		padding-bottom:10px;
+		
+	}
+	.image-card{
+		
+		margin-top:30px;
+	}
+	.feature-item-extra h4{
+		
+		font-size:25px;
+		line-height: 0;
+	}
+	.product-content {
+		
+		margin-top:50px;
+	}
+	.standard, .business, .premium, .ultimate{
+		
+		margin-top:30px;
+	}
+	.contact-info, .important-link,  .news-letter{
+		
+		margin-top:50px;
+	}
+	.footer-copyright-link ul{
+		
+		justify-content:center !important;
+	}
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	
+	.navbar-collapse {
+		padding-top:20px;
+		
+	}
+	.banner h3{
+		
+		font-size:25px;
+	}
+	.banner-content i {
+		
+		margin-left: 5px;
+		
+	}
+	.feature-item-extra, .mobile-content,  .product-title, .pricing-heading, .latest-news-heading h4{
+		
+		font-size:30px;
+		line-height: 40px;
+	}
+	
+	.banner-content h3, p{
+		
+		margin-bottom:15px;
+	}
+	.standard, .business, .premium, .ultimate{
+		
+		margin-top:30px;
+	}
+	.product-content {
+		
+		margin-top:50px;
+	}
+	.contact-info, .important-link,  .news-letter{
+		
+		margin-top:50px;
+	}
+	.footer-copyright-link ul{
+		
+		justify-content:center !important;
+	}
+	
+}
